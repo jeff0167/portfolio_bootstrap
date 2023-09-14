@@ -1,4 +1,4 @@
-import '../App.css';
+import '../App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Card } from 'react-bootstrap'; // can't you import all an easier way?
 import { useNavigate } from "react-router-dom";

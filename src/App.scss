@@ -21,10 +21,10 @@
     transition: 0.2s all ease-in-out;
     cursor: pointer;
   }
-}
 
-.imageZoom:hover img {
-  transform: scale(1.05);
+  :hover {
+      transform: scale(1.05); 
+  }
 }
 
 @keyframes slideInFromLeft {
@@ -37,7 +37,7 @@
 }
 
 .header {  
-  animation: 1s ease-out 0s 1 slideInFromLeft;
+  animation: 0.9s ease-out 0s 1 slideInFromLeft;
   margin-left: -1000px;
 }
 
@@ -49,7 +49,6 @@
   top: 100px;
   left: 165px;
 
-  /* hmm it works but the :hover is a different color */
   :hover{ 
     cursor: pointer;
   }
