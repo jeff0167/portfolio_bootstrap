@@ -5,8 +5,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import Projects from './pages/Projects';
 
-// i want three columns with a rounded box in each with content. they are clickable and displays what the boxc is about...
-
 function App() {  // shift + alt + f  to format
   return (
     <div className="App">

@@ -4,12 +4,13 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-
   justify-content: center;
 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.code {
+  font-size: 50px;
+  position: absolute;
+  transform: translate(340%, -100px);
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
