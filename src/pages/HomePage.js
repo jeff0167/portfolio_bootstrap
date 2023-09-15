@@ -6,7 +6,7 @@ import portrait from '../images/Portrait.jpg';
 import project from '../images/Project.jpg'; // ever since building and deploying, you have to import the image, and using anything from the public folder is not allowed
 import other from '../images/Rock2.jpg'; // and the routing is messed up
 
-function HomePage() {  // shift + alt + f  to format
+function HomePage() {
 
     let navigate = useNavigate(); 
     const routeChange = () =>{ 

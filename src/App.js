@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import Projects from './pages/Projects';
 
-function App() {  // shift + alt + f  to format
+function App() { // shift + alt + f  to format
   return (
     <div className="App">
       <BrowserRouter>
