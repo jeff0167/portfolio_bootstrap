@@ -9,6 +9,7 @@ body {
 }
 
 .code {
+  color:rgb(214, 18, 93);
   font-size: 50px;
   position: absolute;
   transform: translate(340%, -100px);

@@ -15,16 +15,16 @@ function About() {
   }
 
   return (
-    <div className="App">
+    <div>
       <RiArrowLeftCircleFill class="backArrow" onClick={()=> navigate("../portfolio_bootstrap")}></RiArrowLeftCircleFill>
-    <div class="header">
-      <Container class="container">
-            <Card bg="transparent" style={{ width: '80rem' }}>
-            <div class="bg-transparent">
-                <Card.Img src={resume}/> 
-              </div>
-            </Card>
-      </Container>
+      <div class="header">
+        <Container class="container">
+              <Card bg="transparent" style={{ width: '80rem' }}>
+              <div class="bg-transparent">
+                  <Card.Img src={resume}/> 
+                </div>
+              </Card>
+        </Container>
       </div>
       <div class="position-absolute bottom-0 end-0 infoCard">
         <Card bg="dark" style={{ width: '15rem' }}>

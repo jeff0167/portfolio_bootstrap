@@ -2,7 +2,6 @@ import '../App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Card } from 'react-bootstrap'; // can't you import all an easier way?
 import { useNavigate } from "react-router-dom";
-
 import portrait from '../images/Portrait.jpg';
 import project from '../images/Project.jpg'; // ever since building and deploying, you have to import the image, and using anything from the public folder is not allowed
 import other from '../images/Rock2.jpg'; // and the routing is messed up
@@ -16,7 +15,7 @@ function HomePage() {  // shift + alt + f  to format
     }
 
   return (
-      <div className="App">
+      <div>
         <code class="code">My portfolio</code>
         <Container class="container">
             <Row xs={1} md={3}>

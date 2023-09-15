@@ -30,22 +30,22 @@ function Projects() {
 
   let content = projects.map(project =>{
       return (
-      <Col class="geeks">
-        <Card key={project.projectTitle} bg="dark" style={{ width: '35rem'}}>
+      <Col>
           <a href={project.projectLink}>
-            <div class="imageZoom">
-              <Card.Img variant="top" src={project.projectImagePath}/> 
-            </div>
-            <Card.Body>
-              <Card.Title class="text-white">{project.projectTitle}</Card.Title>
-            </Card.Body>
+            <Card key={project.projectTitle} bg="dark" style={{ width: '35rem'}}>
+              <div class="imageZoom">
+                <Card.Img variant="top" src={project.projectImagePath}/> 
+              </div>
+              <Card.Body>
+                <Card.Title class="text-white">{project.projectTitle}</Card.Title>
+              </Card.Body>
+            </Card>
           </a>
-        </Card>
       </Col>);
   });
   
   return (
-    <div className="App">
+    <div>
       <RiArrowLeftCircleFill class="backArrow" onClick={()=> navigate("../portfolio_bootstrap")}></RiArrowLeftCircleFill>
         <Container class="container">
           <Row md={3}>       
