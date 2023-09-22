@@ -10,14 +10,15 @@ import Vue from '../images/Vue.PNG';
 import Friends from '../images/Friends.PNG'; 
 import { RiArrowLeftCircleFill } from "react-icons/ri";
 import project from '../models/project';
+import { BsGithub } from "react-icons/bs";
 
 // ehm how about using a json file to read this from instead, not possible, can't directly type in path to image anymore for some odd reason
-let projects = [new project("simple dungeon dice", "https://jeff0167.github.io/Test/", Dice), 
-new project("Friends app", "https://jeff0167.github.io/GUI_Project/", Friends),
-new project("Friendly reminder app", "http://app.moedekjaer.dk/", Task),
-new project("Simple vue application", "https://jeff0167.github.io/JavaScript-with-vue/", Vue),
-new project("Machine agents playing vollyball", "https://jeff0167.github.io/VollyBall_ML-Agents/", MachineAgents),
-new project("Ionic app with sliders and GPS", "https://jeff0167.github.io/ComponentMasterAndSlider/", Slider),
+let projects = [new project("simple dungeon dice", "https://jeff0167.github.io/Test/", "https://github.com/jeff0167/Test", Dice), 
+new project("Friends app", "https://jeff0167.github.io/GUI_Project/", "https://github.com/jeff0167/GUI_Project", Friends),
+new project("Friendly reminder app", "http://app.moedekjaer.dk/", "https://github.com/NullerGoej/Remory", Task),
+new project("Simple vue application", "https://jeff0167.github.io/JavaScript-with-vue/", "https://github.com/jeff0167/JavaScript-with-vue", Vue),
+new project("Machine agents playing vollyball", "https://jeff0167.github.io/VollyBall_ML-Agents/", "https://github.com/jeff0167/VollyBall_ML-Agents", MachineAgents),
+new project("Ionic app with sliders and GPS", "https://jeff0167.github.io/ComponentMasterAndSlider/", "https://github.com/jeff0167/ComponentMasterAndSlider", Slider),
 ] 
 
 function Projects() {
@@ -31,16 +32,17 @@ function Projects() {
   let content = projects.map(project =>{
       return (
       <Col>
-          <a href={project.projectLink}>
             <Card key={project.projectTitle} bg="dark" style={{ width: '35rem'}}>
-              <div class="imageZoom">
-                <Card.Img variant="top" src={project.projectImagePath}/> 
-              </div>
-              <Card.Body>
+              <a href={project.projectLink}>
+                <div class="imageZoom">
+                  <Card.Img variant="top" src={project.projectImagePath}/> 
+                </div>
+              </a>
+              <Card.Body className='d-xl-flex justify-content-center'>
                 <Card.Title class="text-white">{project.projectTitle}</Card.Title>
+                <a href={project.githubRepoLink}><BsGithub className='iconLinkMarginLeft'></BsGithub></a>
               </Card.Body>
             </Card>
-          </a>
       </Col>);
   });
   
