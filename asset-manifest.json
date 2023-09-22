@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_bootstrap/static/css/main.3a766418.css",
-    "main.js": "/portfolio_bootstrap/static/js/main.e42fe688.js",
+    "main.css": "/portfolio_bootstrap/static/css/main.a6306c7e.css",
+    "main.js": "/portfolio_bootstrap/static/js/main.6d992544.js",
     "static/js/787.8de483dc.chunk.js": "/portfolio_bootstrap/static/js/787.8de483dc.chunk.js",
     "static/media/DiceGame.PNG": "/portfolio_bootstrap/static/media/DiceGame.4ccff95812b1b8069b25.PNG",
     "static/media/MachineAgents.PNG": "/portfolio_bootstrap/static/media/MachineAgents.873fbc12334e66f92677.PNG",
@@ -14,12 +14,12 @@
     "static/media/Slider.PNG": "/portfolio_bootstrap/static/media/Slider.5edd485c54b0e91a6959.PNG",
     "static/media/Vue.PNG": "/portfolio_bootstrap/static/media/Vue.1602d835e87c7f0583fb.PNG",
     "index.html": "/portfolio_bootstrap/index.html",
-    "main.3a766418.css.map": "/portfolio_bootstrap/static/css/main.3a766418.css.map",
-    "main.e42fe688.js.map": "/portfolio_bootstrap/static/js/main.e42fe688.js.map",
+    "main.a6306c7e.css.map": "/portfolio_bootstrap/static/css/main.a6306c7e.css.map",
+    "main.6d992544.js.map": "/portfolio_bootstrap/static/js/main.6d992544.js.map",
     "787.8de483dc.chunk.js.map": "/portfolio_bootstrap/static/js/787.8de483dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a766418.css",
-    "static/js/main.e42fe688.js"
+    "static/css/main.a6306c7e.css",
+    "static/js/main.6d992544.js"
   ]
 }
