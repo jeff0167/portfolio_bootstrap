@@ -19,10 +19,8 @@ function About() {
       <RiArrowLeftCircleFill class="backArrow" onClick={()=> navigate("../portfolio_bootstrap")}></RiArrowLeftCircleFill>
       <div class="header">
         <Container class="container">
-              <Card bg="transparent" style={{ width: '80rem' }}>
-              <div class="bg-transparent">
-                  <Card.Img src={resume}/> 
-                </div>
+              <Card bg="transparent" style={{ width: '80rem' }}>  
+                  <Card.Img src={resume}/>  
               </Card>
         </Container>
       </div>

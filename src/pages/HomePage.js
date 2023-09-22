@@ -22,7 +22,7 @@ function HomePage() {
                 <Col>
                     <Card bg="dark" style={{ width: '35rem' }} onClick={()=> navigate("about")}>
                         <div class="imageZoom">
-                            <Card.Img variant="top" src={portrait}/> 
+                            <Card.Img src={portrait}/> 
                         </div>
                         <Card.Body>
                             <Card.Title class="text-white">About me</Card.Title>
@@ -32,7 +32,7 @@ function HomePage() {
                 <Col>
                     <Card bg="dark" style={{ width: '35rem' }} onClick={()=> navigate("projects")}>
                         <div class="imageZoom">
-                            <Card.Img variant="top" src={project} />
+                            <Card.Img src={project} />
                         </div>
                         <Card.Body>
                             <Card.Title class="text-white">Projects</Card.Title>
@@ -42,7 +42,7 @@ function HomePage() {
                 <Col>
                     <Card bg="dark" style={{ width: '35rem' }} >
                         <div class="imageZoom">
-                            <Card.Img variant="top" src={other} />
+                            <Card.Img src={other} />
                         </div>
                         <Card.Body>
                             <Card.Title class="text-white">Other</Card.Title>

@@ -35,7 +35,7 @@ function Projects() {
             <Card key={project.projectTitle} bg="dark" style={{ width: '35rem'}}>
               <a href={project.projectLink}>
                 <div class="imageZoom">
-                  <Card.Img variant="top" src={project.projectImagePath}/> 
+                  <Card.Img src={project.projectImagePath}/> 
                 </div>
               </a>
               <Card.Body className='d-xl-flex justify-content-center'>
